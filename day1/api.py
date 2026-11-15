@@ -1,6 +1,6 @@
 #Let's create our own api
 from fastapi import FastAPI
-from system_utiks import get_system_info #this is a concept of importing a function from another module in python , import is a statement used to include the definitions (functions, classes, variables, etc.) from another module into the current module. In this case, it imports the get_system_info() function defined in the system_utiks module so that it can be used within the api.py file.
+from day1.system_utils import get_system_info #this is a concept of importing a function from another module in python , import is a statement used to include the definitions (functions, classes, variables, etc.) from another module into the current module. In this case, it imports the get_system_info() function defined in the system_utiks module so that it can be used within the api.py file.
 
 app = FastAPI(title="Devops utilities API") #this is a concept of creating an instance of the FastAPI class in python , FastAPI is a modern, fast (high-performance), web framework for building APIs with Python 3.6+ based on standard Python type hints. It allows you to define your API endpoints and their behavior using Python functions and decorators. 
 

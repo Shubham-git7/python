@@ -1,0 +1,15 @@
+2026-11-14 09:00:01 INFO: Application starting up
+2026-11-14 09:00:05 INFO: Connected to Database cluster
+2026-11-14 09:01:10 INFO: User 'admin' logged in from IP 192.168.1.10
+2026-11-14 09:02:15 WARNING: High memory usage detected (85%)
+2026-11-14 09:03:20 ERROR: Failed to fetch /api/v1/payments
+2026-11-14 09:03:25 ERROR: java.net.SocketTimeoutException: Read timed out
+2026-11-14 09:04:00 INFO: Retrying connection to payment gateway...
+2026-11-14 09:04:30 ERROR: Bhai, server down hai! Connection refused.
+2026-11-14 09:05:00 WARNING: Disk space is below 10%
+2026-11-14 09:05:10 INFO: Cache cleared successfully
+2026-11-14 09:06:00 INFO: Nightly backup started
+2026-11-14 09:07:45 ERROR: Backup failed due to network fluctuation
+2026-11-14 09:08:00 INFO: User 'gulha' logged out
+2026-11-14 09:09:00 WARNING: CPU usage spiked to 95%
+2026-11-14 09:10:00 INFO: Application shutting down gracefully
